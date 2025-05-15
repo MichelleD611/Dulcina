@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> formulaires 2</title> 
+    <style type="text/css" > @import url(form.css);</style>
+</head>
+<body>
+     <fieldset> 
+    <legend>Etat Civil </legend> <!-- Titre du fieldset --> 
+
+    
+    <label for="Matricule"> Matricule</label>
+    <input type="text" name="Matricule" id="Matricule" tabindex="10" />
+            <label for="Nom" class="ig"> Nom</label>
+            <input type="text" name="Nom" id="Nom" tabindex="40" /><br>
+            <br>
+   <div class="form-group">
+            <label for="Prenom">Prenom</label>
+           <input type="text" name="Prenom" id="Prenom" tabindex="20" />
+    <label for="Date de naissance">Date de naissance</label>
+    <input type="text" name="Date de naissance" id="Date de naissance" tabindex="30" /><br>
+    <br>
+    <label for="Sex">Sex</label>
+    <input type="text" name="Sex" id="Sex" tabindex="50" />
+    <label for="Age">Age </label>
+    <input type="text" name="Age" id="Age" tabindex="0" /> <br>
+<br>
+    </fieldset> 
+     <fieldset>
+    
+        <legend>Mes diplomes</legend> <!--Titre du fieldset --> 
+        <label for="CEP"> CEP</label> 
+        <input type="text" name="CEP" id="CEP" />
+        <label for="BEPC">BEPC</label> 
+        <input type="text" name="BEPC" id="BEPC" />
+         <label for="BAC">BAC </label> 
+        <input type="text" name="BAC" id="BAC"/>
+    </div>
+     </fieldset>
+<fieldset>
+    <legend> Expertise</legend>
+    <label for="Expert en Bof"> Expert en Bof</label> 
+        <input type="radio" name="Expert en Bof" id=" Expert en Bof"/>
+        <label for="Expert en Bavardage ">Expert en Bavardage</label> 
+        <input type="radio" name="Expert en Bavarvage" id="Expert en Bavarvage" />
+         <label for="Expert en logistique"> Expert en logistique</label> 
+        <input type="radio" name="Expert en logistique" id="Expert en logistique"/>
+
+    </fieldset>
+    <fieldset> 
+        <legend> Les boutons</legend>
+<input type="submit"value="Envoyer">
+<input type="reset" value="Effacer">
+<input type="button" value="Quitter">
+
+
+
+    </fieldset>
+</body>
+</html>
