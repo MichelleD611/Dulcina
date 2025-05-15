@@ -1,0 +1,10 @@
+dul{ 
+    display: flex;flex-wrap:wrap; gap:20px;
+}
+form-group{ flex: 1 1 45%;}
+fieldset{ margin-bottom: 20px;}
+buttons{ maggin: top 20px;}
+body{ background-image: url(papillon.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;}
+ig{
+    color: aqua;
+}
